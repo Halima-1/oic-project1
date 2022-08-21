@@ -1,0 +1,347 @@
+body{
+    background-color: white;
+}
+.head{
+    background-color: rgb(243, 151, 151);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.select-container{
+    width: 100%;
+    border: 1px solid rgb(185, 178, 178);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.language{
+    display: flex;
+}
+.divp{
+    border: 1px rgb(112, 20, 20);
+    width: 150px;
+    height: 30px;
+    margin-top: 0;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    border:  1px solid rgb(170, 158, 158);
+    margin: 0;
+    font-size: 10px;
+    display: inline block;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.navs{
+    background-color: rgb(224, 96, 117);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.header-navbar a{
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+select{
+    width: 70px;
+    height: 20px;
+    font-size: 10px;
+    border: 1px solid rgb(170, 158, 158);
+}
+.daily span{
+    color: red;
+}
+.daily h2{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+.daily P{
+    text-transform: uppercase;
+    color: grey;
+    width: 150px;
+    font-size: 10px;
+    margin-top: 1px;
+}
+.daily{
+    margin: 30px 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+
+}
+.icon{
+    color: rgb(255, 0, 0);
+    width: 60px;
+    height: 60px;
+    margin: 10px 0 0px 0;
+}
+.navbar-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px auto;
+}
+.header-input{
+    width: 400px;
+    margin-top: 40px;
+    padding: 7px;
+}
+.cart{
+    margin: 10px 5px 0 40px;
+    align-items: flex-end;
+}
+.cart p{
+    margin-top: 0px;
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    width: 700px;
+    margin: 220px auto;
+    background: rgb(248, 248, 248);
+    padding: 20px 10px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px ;
+}
+input{
+    display: block;
+    width: 98%;
+    margin: 10px 0px;
+    border: 1px solid rgb(211, 202, 202);
+    border-radius: 5px;
+    padding: 7px;
+}
+label{
+    margin: 5px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid rgb(211, 202, 202);
+    border-radius: 5px;
+}
+.reply{
+    display: flex;
+}
+.reply input{
+    display: flex;
+    width: auto;
+}
+.btn-container1{
+background-color: aliceblue;
+width: 80px;
+border-radius: 5px;
+padding: 6px;
+align-items: flex-end;
+color:rgb(2, 2, 58);
+}
+.btn-container2{
+background-color: rgb(2, 2, 58);
+width: 80px;
+border: none;
+border-radius: 5px;
+padding: 6px;
+align-items: flex-end;
+color: white;
+}
+select{
+    width: 100%;
+    border: none;
+    padding: 6px;
+    border: 1px solid rgb(211, 202, 202);
+}
+.div3p{
+    width: 100%;
+    background-color: white;
+    height: 80px;
+}
+.formd{
+    background-color: rgb(184, 179, 179);
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sub{
+    text-align: center;
+    position: relative;
+}
+.sub h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub p{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.sub input{
+    width: 400px;
+    margin-top: 10px;
+    padding: 7px;
+    position: absolute;
+    left: 530px;
+    margin-top: 20px;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.footer-sides{
+    margin: 30px;
+    width: 20%;
+}
+.footer-sides h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.footer-sides p{
+    text-transform: capitalize;
+}
+.footer-sides2 p{
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer-sides2 h3{
+    font-size: 600;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-sides2{
+    margin: 40px;
+    width: 20%;
+
+}
+.last{
+    width: 100%;
+    border: 1px solid white;
+    background-color: black;
+}
+@media(max-width:768px){
+    .navbar a{
+        font-size: 7px;
+    } 
+    .navs{
+     padding: 6px;
+    }
+    select{
+     width: 50px;
+     font-size: 7px;
+    }
+    .daily h2{
+        font-weight: 500px;
+       }
+       .daily p{
+        width: 120px;
+       }
+       .daily{
+        margin: 15px 10px;
+    }
+    .icon{
+     width: 40px;
+     height: 40px;
+     margin: 10px 0 0px 0;
+ }
+ .header-input{
+     width: 200px;
+     margin-top: 20px;
+     padding: 7px;
+ }
+ .sub h2{
+     font-weight: 500;
+ }
+ .sub p{
+     font-size: 8px;
+    }
+    .footer-sides h3{
+        font-weight: 450px;
+    }
+    .footer-sides p{
+        font-size: 10px;
+    }
+    .footer-sides2 h3{
+        font-size: 450;
+    }
+}
+
+@media(max-width:400px){
+    .header-input{
+        width: 130px;
+        margin-top: 15px;
+        padding: 5px;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+        margin: 10px 0 0px 0;
+    }            
+
+    .navbar-input{
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+    }     
+    .daily{
+        margin: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+    }                    
+    .cart{
+        margin: 5px;
+    }  
+    .cart p{
+        font-size: 10px;
+        color: grey;
+    }                     
+    .navs{
+        padding: 4px;
+       }
+       select{
+        width: 40px;
+        font-size: 5px;
+    }   
+ .daily h2{
+     font-weight: 300px;
+    }
+    .daily p{
+     width: 90px;
+     font-size: 7px;
+    }
+    .daily{
+        margin: 10px 10px;
+       }
+    }
