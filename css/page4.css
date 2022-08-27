@@ -1,6 +1,13 @@
 body{
     margin: 0;
 }
+a:hover{
+    background-color: green;
+}
+a:active{
+    background-color: pink;
+}
+
 .select-container{
     width: 100%;
     border: 1px solid rgb(185, 178, 178);
@@ -263,6 +270,17 @@ select{
     .footer-sides2{
         margin: 40px;
     }
+    .footer-icon{
+        display: flex;
+        margin: 5px 0px;
+    
+    }
+    .footer-icon svg{
+        width: 17px;
+        height: 17px;
+        margin: 7px 0px;
+    }
+    
     .last{
         width: 100%;
         border: 1px solid white;
