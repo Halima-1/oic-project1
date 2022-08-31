@@ -137,7 +137,7 @@ select{
     padding: 10px;
 }
 
-img{
+.home-images{
     width: 270px;
     height: 300px;
     margin: 20px 30px;
@@ -145,7 +145,10 @@ img{
     object-fit: fill;
     border-radius: 10px;
 }
-
+.home-images img{
+    height: 300px;
+    width: 100%;
+}
 .containera{
     width: 270px;
     float: left;
@@ -234,7 +237,9 @@ margin-left: 0;
 .recent a {
     text-decoration: none;
     color: black;
+    font-size: 15px;
     margin-top: 40px;
+    margin-left: 20px;
 }
 .div3p{
 background-color: white;
@@ -384,10 +389,14 @@ width: 100%;
             padding: 7px;
         }
 
-        img{
-            width: 100%;
+        .home-images{
+            width: 200px;
             height: 200px;
             margin: 10px 30px;
+        }
+        .home-images img{
+            height: 200px;
+            width: 100%;
         }
         
         .containera{
@@ -413,7 +422,6 @@ width: 100%;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            margin: 30px 0;
         }
         .line H2{
             font-size: 15px;
@@ -440,7 +448,7 @@ width: 100%;
             display: flex;
         }
         .text{
-            width: 25%;
+            width: 23%;
             margin: 20px;
             margin-left: 50px;
             margin-top: 50px;
@@ -466,12 +474,16 @@ width: 100%;
             font-size: 12px;
             display: inline-block;
             }    
-        .recent img{
+        .text-m{
         width: 120px;
         height: 100px;
         border-radius: 0;
         margin-left: 0;
         margin-right: 10px;
+        }
+        .text-m img{
+            width: 100%;
+            height: 100px;
         }
         .recent{
             display: flex;
@@ -480,7 +492,7 @@ width: 100%;
             text-decoration: none;
             color: black;
             margin-top: 20px;
-            font-size: 10px;
+            font-size: 12px;
             width: 80px;
         }
         .div3p{
@@ -503,7 +515,7 @@ width: 100%;
             justify-content: center;
         }
         .footer-side1{
-            margin: 30px;
+            margin: 20px;
         }
         .footer-side1 h3{
             font-weight: 400;
@@ -512,7 +524,7 @@ width: 100%;
             font-weight: 400;
         }
         .footer-side2{
-            margin: 30px;
+            margin: 20px ;
         }
         .last{
             width: 100%;
@@ -605,13 +617,17 @@ width: 100%;
     margin: 10px;
    }
 
-   img{
-    width: 140px;
-    height: 140px;
+   .home-images{
+    width: 200px;
+    height: 180px;
     margin: 10px ;
     margin-bottom: 0;
     object-fit: fill;
     border-radius: 10px;
+}
+.home-images img{
+    height: 180px;
+    width: 100%;
 }
 .images-cont{
     width: 100%;
@@ -620,19 +636,19 @@ width: 100%;
 
 
 .containera{
-    width: 38%;
+    width: 80%;
     display: block;
     text-align: center;
     margin: 20px;
 }
 .containerb{
-    width: 38%;
+    width: 80%;
     display: block;
     text-align: center;
     margin: 20px;
 }
 .containerc{
-    width: 30%;
+    width: 80%;
     display: block;
     text-align: center;
     margin: 20px;
@@ -647,11 +663,12 @@ width: 100%;
 .line H2{
     font-size: 15px;
     font-weight: 200;
-    margin: 10px;
+    margin: 10px 0;
     background-color: rgb(41, 9, 41, 0.7);
-    width: 140px;
+    width: 200px;
     align-items: center;
     margin-bottom: 2px;
+    margin-left: 10px;
     color: rgb(247, 231, 244);
     border-radius: 10px;
 
@@ -660,7 +677,9 @@ width: 100%;
     text-decoration: none;
     color: black;
     font-size: 12px;
-    width: 140px;
+    width: 200px;
+    text-align: center;
+    margin-left: 0;
 }
 .display-cont{
     padding: 40px;
@@ -670,7 +689,7 @@ width: 100%;
 }
 .text{
     width: 100%;
-    margin: 20px;
+    margin: 20px 0;
     margin-left: 0px;
     margin-top: 20px;
 }
@@ -714,7 +733,8 @@ margin-left: 0;
 .recent a {
     text-decoration: none;
     color: black;
-    margin-top: 40px;
+    margin-top: 15px;
+    font-size: 12px;
 }
 .div3p{
 background-color: white;
@@ -733,10 +753,11 @@ width: 100%;
 
    .footer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .footer-side1{
-    margin: 20px;
+    margin: 20px 0;
 }
 .footer-side1 h3{
     font-weight: 200;
@@ -746,7 +767,7 @@ width: 100%;
 }
                             
 .footer-side2{
-    margin: 20px;
+    margin: 20px 0;
 }
 .last{
     width: 100%;
