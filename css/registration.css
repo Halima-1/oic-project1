@@ -118,7 +118,7 @@ form{
     width: 80%;
     margin: 50px auto;
     background: rgb(248, 248, 248);
-    padding: 20px 10px;
+    padding: 20px 30px;
     border: none;
     border-radius: 6px;
     box-shadow: 0 2px 8px ;
@@ -177,41 +177,12 @@ select{
     padding: 6px;
     border: 1px solid rgb(211, 202, 202);
 }
-.div3p{
-    width: 100%;
-    background-color: white;
-    height: 80px;
-}
 .formd{
     background-color: rgb(184, 179, 179);
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
 }
-.sub{
-    text-align: center;
-    position: relative;
-}
-.sub h2{
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.sub p{
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-}
-.sub input{
-    width: 400px;
-    margin-top: 10px;
-    padding: 7px;
-    position: absolute;
-    left: 530px;
-    margin-top: 20px;
-}
-
 .footer{
     width: 100%;
     background-color: black;
@@ -221,11 +192,10 @@ select{
     justify-content: space-around;
     padding: 30px;
     box-sizing: border-box;
-    margin-top: 30px;
 }
 .footer-sides{
-    margin: 30px;
-    width: 20%;
+    margin: 20px;
+    width: 23%;
 }
 .footer-sides h3{
     font-family: Arial, Helvetica, sans-serif;
@@ -247,8 +217,8 @@ select{
     font-family: Arial, Helvetica, sans-serif;
 }
 .footer-sides2{
-    margin: 40px;
-    width: 20%;
+    margin: 30px;
+    width: 2%;
 
 }
 .footer-icon{
@@ -274,6 +244,7 @@ select{
     .navs{
      padding: 6px;
     }
+    
     select{
      width: 50px;
      font-size: 7px;
@@ -304,13 +275,13 @@ select{
      font-size: 8px;
     }
     .footer-sides h3{
-        font-weight: 450px;
+        font-weight: 350px;
     }
     .footer-sides p{
         font-size: 10px;
     }
     .footer-sides2 h3{
-        font-size: 450;
+        font-size: 350;
     }
 }
 
@@ -320,14 +291,12 @@ select{
         margin-top: 15px;
         padding: 5px;
     }
-    .select-container{
-        width: 100%;
-        border: 1px solid rgb(185, 178, 178);
-        display: flex;
-        justify-content: center;
-        margin: 0 10px;
-    }
-    
+    .header-navbar a{
+        text-decoration: none;
+        color: white;
+        margin: 0 20px;
+        font-size: 10px;
+    }                                 
     .icon{
         width: 30px;
         height: 30px;
@@ -370,4 +339,27 @@ select{
     .daily{
         margin: 10px 10px;
        }
+       .footer{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        padding: 15px 20px;
+        box-sizing: border-box;
+    }
+    .footer-sides{
+        margin: 20px;
+        width: 23%;
+    }
+       .footer-sides h3{
+        font-weight: 300px;
+        font-size: 14px;
+    }
+    .footer-sides p{
+        font-size: 10px;
+    }
+    .footer-sides2 h3{
+        font-size: 300px;
+        font-size: 14px;
+    }
+
     }
